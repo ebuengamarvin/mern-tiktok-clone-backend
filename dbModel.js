@@ -5,9 +5,9 @@ const tiktokSchema = new mongoose.Schema({
   description: String,
   song: String,
   url: String,
-  likes: String,
-  shares: String,
-  messages: String,
+  likes: Number,
+  shares: Number,
+  messages: Number,
 });
 
 // Collection inside the database
