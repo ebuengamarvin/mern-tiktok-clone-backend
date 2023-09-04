@@ -1,0 +1,17 @@
+{
+  "name": "mern-tiktok-clone-backend",
+  "version": "1.0.0",
+  "description": "Epic MERN TikTok Clone Backend",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Marvin Ebuenga",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.5.0"
+  }
+}
